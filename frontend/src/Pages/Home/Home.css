@@ -1,0 +1,62 @@
+/* Home.css */
+.home {
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero-section {
+  background-color: #f5f5f5;
+  padding: 2rem;
+  margin-bottom: 2rem;
+}
+
+.hero-content {
+  margin-bottom: 2rem;
+}
+
+.hero-content h1 {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  color: #666;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+}
+
+.skills-section {
+  background-color: #f5f5f5;
+  padding: 2rem;
+}
+
+.skills-section h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 2rem;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skill {
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border-radius: 5px;
+  font-size: 1.2rem;
+}
+.skill:hover {
+  background-color: #3157be;
+  transform: scale(1.1);
+}

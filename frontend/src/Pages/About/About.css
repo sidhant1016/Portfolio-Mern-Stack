@@ -1,0 +1,47 @@
+/* About.css */
+
+.about {
+    padding: 50px 0;
+  }
+  
+  .about-section {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .about-section h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-section p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+  }
+  
+  /* Additional styles for a unique look */
+  .about-section {
+    background-color:aquamarine;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-section h2 {
+    font-size: 36px;
+    color: #2c3e50;
+    font-weight: bold;
+  }
+  
+  .about-section p {
+    font-size: 20px;
+    color: #34495e;
+  }
+  
+  .about-section p:first-of-type {
+    margin-bottom: 20px;
+  }
+  

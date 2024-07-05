@@ -1,0 +1,96 @@
+/* Navbar.css */
+
+.navbar {
+  display: flex; /* Allow horizontal layout of logo and links */
+  justify-content: space-between; /* Distribute items evenly */
+  align-items: center; /* Align content vertically */
+  padding: 10px 20px; /* Add some padding for spacing */
+  background-color: #222; /* Dark background color */
+  color: #fff; /* White text for contrast */
+  font-family: sans-serif; /* Use a clean sans-serif font */
+}
+
+.navbar-logo {
+  flex-grow: 1; /* Allow logo to expand and fill remaining space */
+}
+
+.navbar-logo h1 {
+  margin: 0; /* Remove default margin */
+  font-size: 2rem; /* Larger font size for logo */
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none; /* Remove default list styling */
+  padding: 0; /* Remove default padding */
+  margin: 0; /* Remove default margin */
+}
+
+.navbar-links li {
+  margin-right: 20px; /* Space between links */
+}
+
+.navbar-links a,
+.navbar-links Link { /* Target both anchor tags and React Router Link components */
+  display: flex;
+  align-items: center;
+  text-decoration: none; /* Remove underline on hover */
+  color: inherit; /* Inherit text color from navbar */
+  transition: all 0.3s ease-in-out; /* Smooth transition on hover */
+}
+
+.navbar-links a:hover,
+.navbar-links Link:hover {
+  color: #ddd; /* Slightly lighten text color on hover */
+}
+
+.navbar-links i { /* Font Awesome icons */
+  margin-right: 5px; /* Add some space between icon and text */
+}
+
+.navbar-links a:hover { 
+  color: #3498db; 
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start */
+  }
+
+  .navbar-logo {
+    margin-bottom: 10px; /* Add some spacing below the logo */
+  }
+
+  .navbar-links {
+    flex-direction: column; /* Stack links vertically */
+    width: 100%; /* Make links container take full width */
+  }
+
+  .navbar-links li {
+    margin-right: 0; /* Remove right margin */
+    margin-bottom: 10px; /* Add bottom margin */
+  }
+
+  .navbar-links a,
+  .navbar-links Link {
+    width: 100%; /* Make links take full width */
+    justify-content: center; /* Center align the links */
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-logo h1 {
+    font-size: 1.5rem; /* Reduce font size for logo */
+  }
+
+  .navbar-links li {
+    margin-bottom: 8px; /* Adjust bottom margin */
+  }
+
+  .navbar-links a,
+  .navbar-links Link {
+    font-size: 1rem; /* Adjust font size for links */
+  }
+}
