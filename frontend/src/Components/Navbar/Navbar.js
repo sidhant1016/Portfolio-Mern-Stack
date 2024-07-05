@@ -16,7 +16,7 @@ const Navbar = () => {
         <li><a href="https://github.com/sidhant1016" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i> GitHub</a></li>
         <li><Link to="/project"><i className="fas fa-project-diagram"></i> Project</Link></li>
         <li><Link to="/contact"><i className="fas fa-envelope"></i> Contact</Link></li>
-        <li><a href="https://tomato-isis-66.tiiny.site/" target="_blank" rel="noopener noreferrer"><i className="fas fa-file-alt"></i> Resume</a></li>
+        <li><a href="https://pdf.ac/2uYAQ4" target="_blank" rel="noopener noreferrer"><i className="fas fa-file-alt"></i> Resume</a></li>
       </ul>
     </nav>
   );
